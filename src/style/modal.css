@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One);
+
+.modal {
+    position: absolute; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 60vh; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+  }
+  
+  /* Modal Content */
+  .won {
+    background-color: #77f968;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid rgb(109, 244, 5);
+    width: 80%;
+  }
+
+  .loss {
+    background-color: #e63232;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid rgb(247, 66, 66);
+    width: 80%;
+  }
+
+
+  
+  /* The Close Button */
+  .restart {
+    background-color: #f62222;
+    color: #fefefe;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    border: none;
+  }
+  
+  .restart:hover,
+  .restart:focus {
+    font-size: 32px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
